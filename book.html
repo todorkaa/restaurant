@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Еда</title>
+  <link rel="stylesheet" type="text/css" href="site.css">
+</head>
+<body>
+
+<a href="restaurant.html"><img  class="displayed" src="logo.png" alt="Лого" style="text-align: center"></a>
+
+<ul id="nav">
+  <li><a href="restaurant.html">Главная</a></li>
+  <li><a href="food.html">Еда</a></li>
+  <li><a href="drinks.html">Напитки</a></li>
+  <li style="background-color: lightpink;"><a href="book.html">Забронировать</a></li>  
+</ul>
+
+<h2 style="font-family: inglobal;">Забронировать</h2>
+
+<form action="https://www.google.com/search" target="_blank" method="GET" style="font-family: inglobal;">
+    
+  <p>Пожелание по местоположению (обязательно):</p>
+    <input type="radio" id="option1" name="option" value="option1">
+    <label for="option1">Внутри</label><br>
+    <input type="radio" id="option2" name="option" value="option2">
+    <label for="option2">На террасе</label><br>
+
+    <p><input type="date" name="date" required>
+    <p><input type="time" name="time" required>
+    <p><input type="text" name="firstname" placeholder="Имя" required>
+    <p><input type="text" name="lastname" placeholder="Фамилия" required>
+    <p><input type="tel" name="phone" placeholder="Мобильный телефон" required>
+    <p><input type="email" name="email" placeholder="Эл. почта" required>
+
+    <p><label for="quantity">Число гостей:</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="15">
+
+    <p><input type="checkbox" id="extra1" name="extras[]" value="extra1">
+    <label for="extra1">Принимаю политику конфиденциальности (обязательно)</label>
+
+    <p><label for="password">Пароль:</label>
+    <input type="password" id="password" name="password" required>
+    <input type="hidden" name="hidden_field" value="значение_по_умолчанию">
+    <input type="submit" value="Отправить">
+</form>
+
+<hr>
+
+<div id="conacts">
+<h3>Контакты</h3>
+<p><span>Время работы:</span>
+<p><span>Пн-Ср: 9:00-24:00</span>
+<p><span>Чт: 9:00-00:00</span>
+<p><span>Пт-Сб: 00:00-00:00</span>
+<p><span>Вс: 00:00-24:00</span>
+<p><span>Москва, Тверской бульвар, д 26А</span>
+<p><span>+7 (495) 739-00-33</span>
+
+</div>
+
+</body>
+</html>
