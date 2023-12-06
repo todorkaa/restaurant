@@ -1,2 +1,2 @@
 # restaurant
-https://todorkaa.github.io/restaurant/
+https://todorkaa.github.io/restaurant/restaurant.html
